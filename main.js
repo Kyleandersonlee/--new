@@ -19,7 +19,7 @@ next.on('click',function(){
 
 let timer = setInterval(function(){
     goToSlide(current+1);
-},2000)
+},4000)
 
 $slide.on('mouseenter',function(){
    clearInterval(timer)
