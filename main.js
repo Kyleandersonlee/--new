@@ -27,7 +27,7 @@ $slide.on('mouseenter',function(){
 $slide.on('mouseleave',function(){
     timer = setInterval(function(){
         goToSlide(current+1);
-    },2000)
+    },4000)
  })
 function y(){
     $('#buttonWrapper').on('click','img',function(e){
